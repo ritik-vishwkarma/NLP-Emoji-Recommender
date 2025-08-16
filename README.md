@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Emoji Recommender NLP Project
 
 ## Setup Instructions
@@ -28,3 +29,6 @@
 
 - Large `.pth` files are tracked using Git LFS.
 - Make sure you have [Git LFS](https://git-lfs.github.com/)
+=======
+# NLP-Emoji-Recommender
+>>>>>>> c7692495170bd83eb586c4f4f9351ea894aca818

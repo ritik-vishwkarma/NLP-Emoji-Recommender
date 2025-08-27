@@ -27,7 +27,7 @@
 
 ## Notes
 
-- Large `.pth` files are tracked using Git LFS.
+- Large `.pth` files are tracked using Git LFS.git commit -m "Resolved README.md merge conflict"
 - Make sure you have [Git LFS](https://git-lfs.github.com/)
 =======
 # NLP-Emoji-Recommender

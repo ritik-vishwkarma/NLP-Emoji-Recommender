@@ -8,7 +8,7 @@ from collections import Counter
 import torch
 from torch.utils.data import Dataset, DataLoader, WeightedRandomSampler
 from transformers import AutoTokenizer
-from config import AdvancedConfig
+from nlp.src.config import AdvancedConfig
 
 class EnhancedEmojiDataProcessor:
     def __init__(self, config=None):

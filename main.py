@@ -1,7 +1,7 @@
-from models import MobileBERTEmojiClassifier, DistilBERTEmojiClassifier, RoBERTaEmojiClassifier, DeepMojiEmojiClassifier, XLNetEmojiClassifier, MultiHeadEmojiClassifier, EnsembleEmojiClassifier
-from train import AdvancedEmojiTrainer
-from config import AdvancedConfig
-from data_processor import EnhancedEmojiDataProcessor, create_data_loaders
+from nlp.src.models import MobileBERTEmojiClassifier, DistilBERTEmojiClassifier, RoBERTaEmojiClassifier, DeepMojiEmojiClassifier, XLNetEmojiClassifier, MultiHeadEmojiClassifier, EnsembleEmojiClassifier
+from nlp.src.train import AdvancedEmojiTrainer
+from nlp.src.config import AdvancedConfig
+from nlp.src.data_processor import EnhancedEmojiDataProcessor, create_data_loaders
 from transformers import AutoTokenizer
 import torch
 

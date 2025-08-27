@@ -9,7 +9,7 @@ import emoji
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoTokenizer
-from config import Config
+from nlp.src.config import Config
 
 class EnhancedEmojiDataProcessor:
     def __init__(self, config=None):
